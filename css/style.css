@@ -1,0 +1,88 @@
+body{
+    background: #efefef;
+    margin: 0;
+    padding: 0;
+    font: 20px Arial, Tahoma, sans-serif;
+}
+
+canvas{
+    margin: 0 auto;
+    padding: 0;
+
+}
+
+.gameButton{
+	width: 960px;
+	margin: 0 auto;
+	text-align:center;
+}
+
+.gameButton input{
+background-color: #54a208;
+width: 200px;
+height: 50px;
+border-radius: 10px;
+font-size: 25pt;
+color: #ffffff;
+}
+
+
+#phaser-demo{
+	    display: none;
+}
+
+
+
+.mid{
+	width: 960px;
+	margin: 0 auto;
+}
+
+.mid a{
+	text-align: center;
+}
+
+.info{
+	position: relative;
+	height: 200px;
+
+}
+
+.download{
+	/*width: 500px;*/
+	position: absolute; 
+	left: 550px; 
+	top: 50px;
+}
+
+.download img{
+	width: 170px;
+	height: 50px;
+}
+
+.list{
+	position: absolute;
+	left: 5px;
+	/*width: 500px;*/
+	margin: 0 0;
+	font-weight:bold
+}
+
+.contact{
+	margin: 0 auto;
+}
+
+.contact ul {
+  margin: 0;
+  list-style: none;
+  overflow: auto;
+
+
+}
+.contact li {
+	display: inline-block;
+  	float: left;
+  	margin-right: 130px;
+}
+
+
