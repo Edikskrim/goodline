@@ -1,107 +1,98 @@
-body{
+body {
     background: #efefef;
     margin: 0;
     padding: 0;
     font: 20px Arial, Tahoma, sans-serif;
 }
 
-canvas{
+canvas {
     margin: 0 auto;
     padding: 0;
-
 }
 
-header{
-	padding-top: 12px;
+header {
+    padding-top: 12px;
 }
 
-header .logo	{
-	border-radius: 4px 4px 0 4px;
+header .logo {
+    border-radius: 4px 4px 0 4px;
 }
 
-.gameButton{
-	width: 960px;
-	margin: 0 auto;
-	text-align:center;
+.gameButton {
+    width: 960px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .gameButton input {
-	margin-top: 5px;
-	margin-bottom: 10px;
-	background-color: #72bf44;
-	width: 120px;
-	height: 30px;
-	border-radius: 4px;
-	text-align: center;
-	line-height: 30px;
-	cursor: pointer;
-	font-family: 'Roboto Condensed';
-	font-weight: 400;
-	font-size: 14px;
-	color: white;
-	text-transform: uppercase;
-	cursor: pointer;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    background-color: #72bf44;
+    width: 120px;
+    height: 30px;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+    font-family: 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 14px;
+    color: white;
+    text-transform: uppercase;
 }
 
-#phaser-demo{
-	    display: none;
+#phaser-demo {
+    display: none;
 }
 
-
-
-.mid{
-	width: 960px;
-	margin: 0 auto;
+.mid {
+    width: 960px;
+    margin: 0 auto;
 }
 
-.mid a{
-	text-align: center;
+.mid a {
+    text-align: center;
 }
 
-.info{
-	position: relative;
-	height: 200px;
-
+.info {
+    position: relative;
+    height: 200px;
 }
 
-.download{
-	/*width: 500px;*/
-	position: absolute; 
-	left: 550px; 
-	top: 50px;
+.download {
+    position: absolute;
+    left: 550px;
+    top: 50px;
 }
 
-.download img{
-	width: 170px;
-	height: 50px;
+.download img {
+    width: 170px;
+    height: 50px;
 }
 
-.list{
-	position: absolute;
-	left: 5px;
-	/*width: 500px;*/
-	margin: 0 0;
-	font-weight:bold
+.list {
+    position: absolute;
+    left: 5px;
+    margin: 0 0;
+    font-weight: bold
 }
 
-.contact{
-	margin: 0 auto;
+.contact {
+    margin: 0 auto;
 }
 
 .contact ul {
-  margin: 0;
-  list-style: none;
-  overflow: auto;
-
-
+    margin: 0;
+    list-style: none;
+    overflow: auto;
 }
+
 .contact li {
-	display: inline-block;
-  	float: left;
-  	margin-right: 130px;
+    display: inline-block;
+    float: left;
+    margin-right: 130px;
 }
 
-.game{
-	padding-bottom: 12px;
+.game {
+    padding-bottom: 12px;
 }
-
