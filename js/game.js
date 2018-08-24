@@ -1,8 +1,5 @@
 var game;
-
 function startGame() {
-
-
     game = new Phaser.Game(800, 600, Phaser.CANVAS, 'phaser-demo', {
         preload: preload,
         create: create,
@@ -10,8 +7,6 @@ function startGame() {
         render: render
     });
 }
-
-
 var player;
 var greenEnemies;
 var blueEnemies;
@@ -39,22 +34,21 @@ var bossSpacing = 20000;
 var bossBulletTimer = 0;
 var bossYdirection = -1;
 var gameOver;
-
 var ACCLERATION = 600;
 var DRAG = 400;
 var MAXSPEED = 400;
 
 function preload() {
-    game.load.image('starfield', '/img/game/starfield.png');
-    game.load.image('ship', '/img/game/player.png');
-    game.load.image('bullet', '/img/game/bullet.png');
-    game.load.image('enemy-green', '/img/game/enemy-green.png');
-    game.load.image('enemy-blue', '/img/game/enemy-blue.png');
-    game.load.image('blueEnemyBullet', '/img/game/enemy-blue-bullet.png');
-    game.load.spritesheet('explosion', '/img/game/explode.png', 128, 128);
-    game.load.bitmapFont('spacefont', '/img/game/spacefont.png', '/img/game/spacefont.xml');
-    game.load.image('boss', '/img/game/boss.png');
-    game.load.image('deathRay', '/img/game/death-ray.png');
+    game.load.image('starfield', 'img/game/starfield.png');
+    game.load.image('ship', 'img/game/player.png');
+    game.load.image('bullet', 'img/game/bullet.png');
+    game.load.image('enemy-green', 'img/game/enemy-green.png');
+    game.load.image('enemy-blue', 'img/game/enemy-blue.png');
+    game.load.image('blueEnemyBullet', 'img/game/enemy-blue-bullet.png');
+    game.load.spritesheet('explosion', 'img/game/explode.png', 128, 128);
+    game.load.bitmapFont('spacefont', 'img/game/spacefont.png', 'img/game/spacefont.xml');
+    game.load.image('boss', 'img/game/boss.png');
+    game.load.image('deathRay', 'img/game/death-ray.png');
 }
 
 function create() {
